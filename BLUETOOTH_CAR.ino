@@ -65,7 +65,7 @@ void loop() {
     }
 
     // Stop
-    else if (command == '') {
+    else if (command == 'S') {
       digitalWrite(IN1, LOW);
       digitalWrite(IN2, LOW);
 
